@@ -30,6 +30,7 @@ class _ViewProfileScreenState extends State<ViewProfileScreen> {
     email = SharedPrefsHelper.getData(SharedPrefsConsts.keyEmail);
     phone = SharedPrefsHelper.getData(SharedPrefsConsts.keyPhone);
     imagePath = SharedPrefsHelper.getData(SharedPrefsConsts.keyImage);
+    setState(() {});
   }
 
   @override
